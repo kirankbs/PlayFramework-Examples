@@ -14,6 +14,8 @@ object Product {
     Product(5018306312913L, "No Tear Paper Clip",
       "No Tear Extra Large Pack of 1000"),
     Product(5018206244611L, "Zebra Paperclips",
+      "Zebra Length 28mm Assorted 150 Pack"),
+    Product(5018206244614L, "Zebra Paperclips",
       "Zebra Length 28mm Assorted 150 Pack")
   )
   def findAll = products.toList.sortBy(_.ean)
